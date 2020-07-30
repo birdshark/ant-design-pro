@@ -108,7 +108,6 @@ class BasicLayout extends React.Component {
       breadcrumbNameMap,
       fixedHeader,
     } = this.props;
-
     const isTop = PropsLayout === 'topmenu';
     const contentStyle = !fixedHeader ? { paddingTop: 0 } : {};
     const layout = (

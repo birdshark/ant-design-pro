@@ -79,7 +79,7 @@ export default function request(url, option) {
     .digest('hex');
 
   const defaultOptions = {
-    credentials: 'include',
+    credentials: 'same-origin',
   };
   const newOptions = { ...defaultOptions, ...options };
   if (
